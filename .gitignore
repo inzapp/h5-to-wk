@@ -1,0 +1,7 @@
+__pycache__/
+sample_images/
+*.h5
+*.pb
+*.prototxt
+*.caffemodel
+*.wk

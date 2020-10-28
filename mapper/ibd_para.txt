@@ -1,0 +1,69 @@
+=============== ibd para of Placeholder ===============
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_conv2d_Conv2D ===============
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 26] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_FusedBatchNormV3 ===============
+IBDParaTableItem
+[m_din_width: 1664] [m_align_bytes: 104] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_FusedBatchNormV3_scale ===============
+IBDParaTableItem
+[m_din_width: 1664] [m_align_bytes: 104] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_max_pooling2d_MaxPool ===============
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 26] [m_width_step: 2] 
+=============== ibd para of functional_1_conv2d_1_Conv2D ===============
+IBDParaTableItem
+[m_din_width: 832] [m_align_bytes: 52] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 13] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_1_FusedBatchNormV3 ===============
+IBDParaTableItem
+[m_din_width: 832] [m_align_bytes: 52] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_1_FusedBatchNormV3_scale ===============
+IBDParaTableItem
+[m_din_width: 832] [m_align_bytes: 52] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_max_pooling2d_1_MaxPool ===============
+IBDParaTableItem
+[m_din_width: 208] [m_align_bytes: 13] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 28] [m_width_step: 2] 
+=============== ibd para of functional_1_conv2d_2_Conv2D ===============
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 14] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_2_FusedBatchNormV3 ===============
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_2_FusedBatchNormV3_scale ===============
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_max_pooling2d_2_MaxPool ===============
+IBDParaTableItem
+[m_din_width: 104] [m_align_bytes: 7] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 32] [m_width_step: 2] 
+=============== ibd para of functional_1_conv2d_3_Conv2D ===============
+IBDParaTableItem
+[m_din_width: 208] [m_align_bytes: 13] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 16] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_3_FusedBatchNormV3 ===============
+IBDParaTableItem
+[m_din_width: 208] [m_align_bytes: 13] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_3_FusedBatchNormV3_scale ===============
+IBDParaTableItem
+[m_din_width: 208] [m_align_bytes: 13] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_max_pooling2d_3_MaxPool ===============
+IBDParaTableItem
+[m_din_width: 52] [m_align_bytes: 4] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 32] [m_width_step: 2] 
+=============== ibd para of functional_1_conv2d_4_Conv2D ===============
+IBDParaTableItem
+[m_din_width: 104] [m_align_bytes: 7] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 16] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_4_FusedBatchNormV3 ===============
+IBDParaTableItem
+[m_din_width: 104] [m_align_bytes: 7] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_batch_normalization_4_FusedBatchNormV3_scale ===============
+IBDParaTableItem
+[m_din_width: 104] [m_align_bytes: 7] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of functional_1_conv2d_5_Conv2D ===============
+IBDParaTableItem
+[m_din_width: 26] [m_align_bytes: 2] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 32] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 416] [m_align_bytes: 26] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 2] [m_width_step: 1] 
+=============== ibd para of functional_1_conv2d_5_Sigmoid ===============
+=============== ibd para of functional_1_conv2d_5_Sigmoid_report_0_0 ===============
+IBDParaTableItem
+[m_din_width: 104] [m_align_bytes: 7] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 

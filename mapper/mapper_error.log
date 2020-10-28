@@ -1,0 +1,24 @@
+
+**********************************************************
+ERROR: file: fileCheck  line: 1091
+../model.prototxt is not a file!
+
+
+
+**********************************************************
+ERROR: file: processCfgParseLow  line: 175
+ERROR: RUN FAILURE in line 175. Return = 65563
+
+
+
+**********************************************************
+ERROR: file: dealLine  line: 632
+ERROR: RUN FAILURE in line 632. Return = 65563
+
+
+
+**********************************************************
+ERROR: file: main  line: 67
+ERROR: RUN FAILURE in line 67. Return = 65563
+
+
