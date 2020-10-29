@@ -31,9 +31,8 @@ def main():
     for path in paths:
         x = cv2.imread(path, cv2.IMREAD_COLOR)
         x = cv2.resize(x, (input_shape[1], input_shape[0]))
-#        x = np.moveaxis(x, -1, 0)
-#        x = np.asarray(x).astype('float32').reshape(1, 3, input_shape[0], input_shape[1]) / 255.
-        x = np.asarray(x).astype('float32').reshape(1, 3, input_shape[0], input_shape[1])
+        x = np.moveaxis(x, -1, 0)
+        x = np.asarray(x).astype('float32').reshape(1, 3, input_shape[0], input_shape[1]) / 255.
 
         print(path)
         caffe_net_time_sum += inference_caffe_net(x)
