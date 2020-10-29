@@ -22,3 +22,430 @@ ERROR: file: main  line: 67
 ERROR: RUN FAILURE in line 67. Return = 65563
 
 
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: getImageList  line: 971
+the image_list null is not a file or a valid path!
+
+
+
+**********************************************************
+ERROR: file: compile  line: 510
+ERROR: RUN FAILURE in line 510. Return = 131073
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 131073
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 131073
+
+
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: read_lang_file  line: 172
+[image_list] ./test_image_paths.txt 
+file error: the file in the image_list should be a featuremap file, of which the data seperate symbol should be space or comma.
+
+
+
+**********************************************************
+ERROR: file: language_preprocess  line: 225
+ERROR: RUN FAILURE in line 225. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1328
+ERROR: RUN FAILURE in line 1328. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 458755
+
+
+
+**********************************************************
+ERROR: file: read_mean_file  line: 81
+open mean file null failure!
+
+
+
+**********************************************************
+ERROR: file: image_preprocess  line: 521
+ERROR: RUN FAILURE in line 521. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1349
+ERROR: RUN FAILURE in line 1349. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: read_channel_mean_file  line: 393
+read mean file null failure!
+
+
+
+**********************************************************
+ERROR: file: image_preprocess  line: 526
+ERROR: RUN FAILURE in line 526. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1349
+ERROR: RUN FAILURE in line 1349. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: read_mean_file  line: 81
+open mean file null failure!
+
+
+
+**********************************************************
+ERROR: file: image_preprocess  line: 521
+ERROR: RUN FAILURE in line 521. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1349
+ERROR: RUN FAILURE in line 1349. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 327682
+
+
+
+**********************************************************
+ERROR: file: read_channel_mean_file  line: 393
+read mean file null failure!
+
+
+
+**********************************************************
+ERROR: file: image_preprocess  line: 526
+ERROR: RUN FAILURE in line 526. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: inferenceForward  line: 1349
+ERROR: RUN FAILURE in line 1349. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: compile  line: 666
+ERROR: RUN FAILURE in line 666. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 114
+ERROR: RUN FAILURE in line 114. Return = 327687
+
+
+
+**********************************************************
+ERROR: file: main  line: 146
+ERROR: RUN FAILURE in line 146. Return = 327687
+
+

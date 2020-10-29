@@ -6,10 +6,10 @@ import cv2
 import numpy as np
 
 
-input_shape=(128, 1024)
+input_shape=(416, 416)
 
 
-model_path = 'model'
+model_path = './'
 
 caffe_net = caffe.Net(model_path + '/model.prototxt', model_path + '/model.caffemodel', caffe.TEST)
 #caffe_net.blobs['Placeholder'].reshape(1, 3, 16, 128)
@@ -24,7 +24,8 @@ def main():
     print(caffe_net.blobs)
     print()
 
-    paths = glob('sample_images/*.jpg')
+#    paths = glob('sample_images/*.jpg')
+    paths = ['mapper/test_image.jpg']
     caffe_net_time_sum = 0
     cv_net_time_sum = 0
     for path in paths:
