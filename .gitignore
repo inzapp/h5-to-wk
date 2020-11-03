@@ -1,6 +1,7 @@
 __pycache__/
 sample_images/
 *.json
+*.npy
 *.h5
 *.pb
 *.prototxt
