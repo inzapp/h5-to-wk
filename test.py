@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 
-input_shape=(416, 416)
+input_shape=(386, 640)
 
 
 model_path = './'

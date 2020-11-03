@@ -1,8 +1,8 @@
 Name: Vop0
 Classify: VOP
 Sub_net_type: 0
-Input: Placeholder [Exist] [bond_1][3][416][416] 
-Output: functional_1_conv2d_5_Sigmoid [bond_1][3][26][26] 
+Input: Placeholder [Exist] [bond_1][1][368][640] 
+Output: sequential_conv2d_5_Sigmoid [bond_1][3][23][40] 
 Report_flag: -1 
 Order: 0
 Layer_cnt: 23

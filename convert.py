@@ -39,7 +39,7 @@ def convert_h5_to_frozen_pb():
 
 
 def convert_pb_to_caffemodel():
-    os.system('mmconvert -sf tf -iw frozen_graph.pb -df caffe -om ./model --inputShape=416,416,3 --inNodeName=x --dstNodeName=Identity')
+    os.system('mmconvert -sf tf -iw frozen_graph.pb -df caffe -om ./model --inputShape=368,640,1 --inNodeName=x --dstNodeName=Identity')
 
 
 if __name__ == '__main__':
