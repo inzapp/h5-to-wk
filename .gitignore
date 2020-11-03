@@ -1,5 +1,6 @@
 __pycache__/
 sample_images/
+*.json
 *.h5
 *.pb
 *.prototxt
