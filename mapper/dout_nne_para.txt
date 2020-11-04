@@ -1,9 +1,9 @@
 =============== dout nne para of Placeholder ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 235520] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_conv2d_Conv2D ===============
+=============== dout nne para of functional_1_conv2d_Conv2D ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 942080] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 73182735] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 942080] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 76422812] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 640] [m_pad_r_locate: 641] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 40] [m_conv_stride_w: 1] [m_conv_stride_h: 1] [m_kernel_width: 3] [m_kernel_height: 3] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 1] [m_cal_round_num: 9] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 1] [m_kernel_x_locate_remain_cfg: 0] [m_pad_l_rslt_cfg: 1] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -37,15 +37,15 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 1] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 1] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_batch_normalization_FusedBatchNormV3 ===============
+=============== dout nne para of functional_1_batch_normalization_FusedBatchNormV3 ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_batch_normalization_FusedBatchNormV3_scale ===============
+=============== dout nne para of functional_1_batch_normalization_FusedBatchNormV3_scale ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_max_pooling2d_MaxPool ===============
+=============== dout nne para of functional_1_max_pooling2d_MaxPool ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 235520] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 206992033] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 235520] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 1585730000] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 320] [m_pad_r_locate: 640] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 40] [m_conv_stride_w: 2] [m_conv_stride_h: 2] [m_kernel_width: 2] [m_kernel_height: 2] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 2] [m_cal_round_num: 4] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 0] [m_kernel_x_locate_remain_cfg: 1] [m_pad_l_rslt_cfg: 0] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -79,9 +79,9 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 2] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 0] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_conv2d_1_Conv2D ===============
+=============== dout nne para of functional_1_conv2d_1_Conv2D ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 235520] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 79806339] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 235520] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 792865000] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 320] [m_pad_r_locate: 321] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 20] [m_conv_stride_w: 1] [m_conv_stride_h: 1] [m_kernel_width: 3] [m_kernel_height: 3] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 1] [m_cal_round_num: 9] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 1] [m_kernel_x_locate_remain_cfg: 0] [m_pad_l_rslt_cfg: 1] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -115,15 +115,15 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 1] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 1] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_batch_normalization_1_FusedBatchNormV3 ===============
+=============== dout nne para of functional_1_batch_normalization_1_FusedBatchNormV3 ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_batch_normalization_1_FusedBatchNormV3_scale ===============
+=============== dout nne para of functional_1_batch_normalization_1_FusedBatchNormV3_scale ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_max_pooling2d_1_MaxPool ===============
+=============== dout nne para of functional_1_max_pooling2d_1_MaxPool ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 58880] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 611382493] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 58880] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 1885761398] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 160] [m_pad_r_locate: 320] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 20] [m_conv_stride_w: 2] [m_conv_stride_h: 2] [m_kernel_width: 2] [m_kernel_height: 2] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 2] [m_cal_round_num: 4] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 0] [m_kernel_x_locate_remain_cfg: 1] [m_pad_l_rslt_cfg: 0] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -157,9 +157,9 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 2] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 0] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_conv2d_2_Conv2D ===============
+=============== dout nne para of functional_1_conv2d_2_Conv2D ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 58880] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 181765103] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 58880] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 792865000] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 160] [m_pad_r_locate: 161] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_conv_stride_w: 1] [m_conv_stride_h: 1] [m_kernel_width: 3] [m_kernel_height: 3] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 1] [m_cal_round_num: 9] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 1] [m_kernel_x_locate_remain_cfg: 0] [m_pad_l_rslt_cfg: 1] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -193,15 +193,15 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 1] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 1] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_batch_normalization_2_FusedBatchNormV3 ===============
+=============== dout nne para of functional_1_batch_normalization_2_FusedBatchNormV3 ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_batch_normalization_2_FusedBatchNormV3_scale ===============
+=============== dout nne para of functional_1_batch_normalization_2_FusedBatchNormV3_scale ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_max_pooling2d_2_MaxPool ===============
+=============== dout nne para of functional_1_max_pooling2d_2_MaxPool ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 14720] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 827968132] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 14720] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 1222764986] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 80] [m_pad_r_locate: 160] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 20] [m_conv_stride_w: 2] [m_conv_stride_h: 2] [m_kernel_width: 2] [m_kernel_height: 2] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 4] [m_cal_round_num: 4] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 0] [m_kernel_x_locate_remain_cfg: 1] [m_pad_l_rslt_cfg: 0] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -235,9 +235,9 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 2] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 0] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_conv2d_3_Conv2D ===============
+=============== dout nne para of functional_1_conv2d_3_Conv2D ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 14720] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 181765103] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 14720] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 379625062] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 80] [m_pad_r_locate: 81] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 10] [m_conv_stride_w: 1] [m_conv_stride_h: 1] [m_kernel_width: 3] [m_kernel_height: 3] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 2] [m_cal_round_num: 18] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 1] [m_kernel_x_locate_remain_cfg: 0] [m_pad_l_rslt_cfg: 1] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -271,15 +271,15 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 1] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 1] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_batch_normalization_3_FusedBatchNormV3 ===============
+=============== dout nne para of functional_1_batch_normalization_3_FusedBatchNormV3 ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_batch_normalization_3_FusedBatchNormV3_scale ===============
+=============== dout nne para of functional_1_batch_normalization_3_FusedBatchNormV3_scale ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_max_pooling2d_3_MaxPool ===============
+=============== dout nne para of functional_1_max_pooling2d_3_MaxPool ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 3680] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 902905651] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 3680] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 984625594] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 40] [m_pad_r_locate: 80] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 24] [m_conv_stride_w: 2] [m_conv_stride_h: 2] [m_kernel_width: 2] [m_kernel_height: 2] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 8] [m_cal_round_num: 4] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 0] [m_kernel_x_locate_remain_cfg: 1] [m_pad_l_rslt_cfg: 0] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -313,9 +313,9 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 2] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 0] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_conv2d_4_Conv2D ===============
+=============== dout nne para of functional_1_conv2d_4_Conv2D ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 3680] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 140160054] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 3680] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 225726413] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 40] [m_pad_r_locate: 41] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 12] [m_conv_stride_w: 1] [m_conv_stride_h: 1] [m_kernel_width: 3] [m_kernel_height: 3] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 4] [m_cal_round_num: 36] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 1] [m_kernel_x_locate_remain_cfg: 0] [m_pad_l_rslt_cfg: 1] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -349,15 +349,15 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 1] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 1] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_batch_normalization_4_FusedBatchNormV3 ===============
+=============== dout nne para of functional_1_batch_normalization_4_FusedBatchNormV3 ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_batch_normalization_4_FusedBatchNormV3_scale ===============
+=============== dout nne para of functional_1_batch_normalization_4_FusedBatchNormV3_scale ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_conv2d_5_Conv2D ===============
+=============== dout nne para of functional_1_conv2d_5_Conv2D ===============
 DoutNneParaTableItem
-[m_dout_c_addr_offset: 14720] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 206992033] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
+[m_dout_c_addr_offset: 14720] [m_rest_bytes: 0] [m_beta: 3] [m_delta_a: 727060411] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 4096] [m_lower_bound: -4096] [m_range: 4] 
 [m_dout_width: 40] [m_pad_r_locate: 40] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 24] [m_conv_stride_w: 1] [m_conv_stride_h: 1] [m_kernel_width: 1] [m_kernel_height: 1] [m_dilation_width: 1] [m_dilation_height: 1] [m_deconv_stride_w: 1] [m_deconv_stride_h: 1] 
 [m_din_w_ram_offset_s: 8] [m_cal_round_num: 8] [m_dout_x_cnt_rslt_cfg: 16] [m_dout_x_cnt_remain_cfg: 0] [m_kernel_x_locate_rslt_cfg: 1] [m_kernel_x_locate_remain_cfg: 0] [m_pad_l_rslt_cfg: 0] [m_pad_l_remain_cfg: 0] 
 [m_stride_w_1plus_rslt_cfg: 1] 
@@ -391,9 +391,9 @@ DoutNneParaTableItem
 [m_stride_w_14plus_remain_cfg: 0] 
 [m_stride_w_15plus_remain_cfg: 0] 
 [m_dout_y_cnt_rslt_cfg: 1] [m_dout_y_cnt_remain_cfg: 0] [m_kernel_y_locate_rslt_cfg: 1] [m_kernel_y_locate_remain_cfg: 0] [m_pad_u_rslt_cfg: 0] [m_pad_u_remain_cfg: 0] 
-=============== dout nne para of sequential_conv2d_5_Sigmoid ===============
+=============== dout nne para of functional_1_conv2d_5_Sigmoid ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 0] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 
-=============== dout nne para of sequential_conv2d_5_Sigmoid_report_0_0 ===============
+=============== dout nne para of functional_1_conv2d_5_Sigmoid_report_0_0 ===============
 DoutParaTableItem
 [m_dout_c_addr_offset: 3680] [m_rest_bytes: 0] [m_beta: 0] [m_delta_a: 0] [m_delta_b: 0] [m_prelu_c: 0] [m_up_bound: 0] [m_lower_bound: 0] [m_range: 0] 

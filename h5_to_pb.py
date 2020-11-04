@@ -28,21 +28,21 @@ def convert_h5_to_frozen_pb():
 
     tf.io.write_graph(
         graph_or_graph_def=frozen_func.graph,
-        logdir=".",
-        name="frozen_graph.pb",
+        logdir="log",
+        name="model.pb",
         as_text=False
     )
 
-    net = cv2.dnn.readNet(r'frozen_graph.pb')
+    net = cv2.dnn.readNet(r'model.pb')
     for layer_name in net.getLayerNames():
         print(layer_name)
 
 
 def convert_pb_to_caffemodel():
-    os.system('mmconvert -sf tf -iw frozen_graph.pb -df caffe -om ./model --inputShape=368,640,1 --inNodeName=x --dstNodeName=Identity')
+    os.system('mmconvert -sf tf -iw model.pb -df caffe -om ./model --inputShape=368,640,1 --inNodeName=x --dstNodeName=Identity')
 
 
 if __name__ == '__main__':
     convert_h5_to_frozen_pb()
-    convert_pb_to_caffemodel()
+#    convert_pb_to_caffemodel()
 

@@ -1,69 +1,69 @@
 =============== ibd para of Placeholder ===============
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_conv2d_Conv2D ===============
+=============== ibd para of functional_1_conv2d_Conv2D ===============
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 40] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_FusedBatchNormV3 ===============
+=============== ibd para of functional_1_batch_normalization_FusedBatchNormV3 ===============
 IBDParaTableItem
 [m_din_width: 2560] [m_align_bytes: 160] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_FusedBatchNormV3_scale ===============
+=============== ibd para of functional_1_batch_normalization_FusedBatchNormV3_scale ===============
 IBDParaTableItem
 [m_din_width: 2560] [m_align_bytes: 160] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_max_pooling2d_MaxPool ===============
+=============== ibd para of functional_1_max_pooling2d_MaxPool ===============
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 40] [m_width_step: 2] 
-=============== ibd para of sequential_conv2d_1_Conv2D ===============
+=============== ibd para of functional_1_conv2d_1_Conv2D ===============
 IBDParaTableItem
 [m_din_width: 1280] [m_align_bytes: 80] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 20] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_1_FusedBatchNormV3 ===============
+=============== ibd para of functional_1_batch_normalization_1_FusedBatchNormV3 ===============
 IBDParaTableItem
 [m_din_width: 1280] [m_align_bytes: 80] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_1_FusedBatchNormV3_scale ===============
+=============== ibd para of functional_1_batch_normalization_1_FusedBatchNormV3_scale ===============
 IBDParaTableItem
 [m_din_width: 1280] [m_align_bytes: 80] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_max_pooling2d_1_MaxPool ===============
+=============== ibd para of functional_1_max_pooling2d_1_MaxPool ===============
 IBDParaTableItem
 [m_din_width: 320] [m_align_bytes: 20] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 20] [m_width_step: 2] 
-=============== ibd para of sequential_conv2d_2_Conv2D ===============
+=============== ibd para of functional_1_conv2d_2_Conv2D ===============
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_2_FusedBatchNormV3 ===============
+=============== ibd para of functional_1_batch_normalization_2_FusedBatchNormV3 ===============
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_2_FusedBatchNormV3_scale ===============
+=============== ibd para of functional_1_batch_normalization_2_FusedBatchNormV3_scale ===============
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_max_pooling2d_2_MaxPool ===============
+=============== ibd para of functional_1_max_pooling2d_2_MaxPool ===============
 IBDParaTableItem
 [m_din_width: 160] [m_align_bytes: 10] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 20] [m_width_step: 2] 
-=============== ibd para of sequential_conv2d_3_Conv2D ===============
+=============== ibd para of functional_1_conv2d_3_Conv2D ===============
 IBDParaTableItem
 [m_din_width: 320] [m_align_bytes: 20] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 10] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_3_FusedBatchNormV3 ===============
+=============== ibd para of functional_1_batch_normalization_3_FusedBatchNormV3 ===============
 IBDParaTableItem
 [m_din_width: 320] [m_align_bytes: 20] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_3_FusedBatchNormV3_scale ===============
+=============== ibd para of functional_1_batch_normalization_3_FusedBatchNormV3_scale ===============
 IBDParaTableItem
 [m_din_width: 320] [m_align_bytes: 20] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_max_pooling2d_3_MaxPool ===============
+=============== ibd para of functional_1_max_pooling2d_3_MaxPool ===============
 IBDParaTableItem
 [m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 24] [m_width_step: 2] 
-=============== ibd para of sequential_conv2d_4_Conv2D ===============
+=============== ibd para of functional_1_conv2d_4_Conv2D ===============
 IBDParaTableItem
 [m_din_width: 160] [m_align_bytes: 10] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 12] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_4_FusedBatchNormV3 ===============
+=============== ibd para of functional_1_batch_normalization_4_FusedBatchNormV3 ===============
 IBDParaTableItem
 [m_din_width: 160] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_batch_normalization_4_FusedBatchNormV3_scale ===============
+=============== ibd para of functional_1_batch_normalization_4_FusedBatchNormV3_scale ===============
 IBDParaTableItem
 [m_din_width: 160] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
-=============== ibd para of sequential_conv2d_5_Conv2D ===============
+=============== ibd para of functional_1_conv2d_5_Conv2D ===============
 IBDParaTableItem
 [m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 24] [m_width_step: 1] 
 IBDParaTableItem
 [m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 3] [m_width_step: 1] 
-=============== ibd para of sequential_conv2d_5_Sigmoid ===============
-=============== ibd para of sequential_conv2d_5_Sigmoid_report_0_0 ===============
+=============== ibd para of functional_1_conv2d_5_Sigmoid ===============
+=============== ibd para of functional_1_conv2d_5_Sigmoid_report_0_0 ===============
 IBDParaTableItem
 [m_din_width: 160] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 

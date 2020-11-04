@@ -6,8 +6,9 @@ import cv2
 import numpy as np
 
 
-input_shape=(386, 640)
-
+input_shape=(368, 640)
+color_mode = cv2.IMREAD_GRAYSCALE
+input_channel = 3 if color_mode == cv2.IMREAD_COLOR else 1
 
 model_path = './'
 
@@ -29,10 +30,10 @@ def main():
     caffe_net_time_sum = 0
     cv_net_time_sum = 0
     for path in paths:
-        x = cv2.imread(path, cv2.IMREAD_COLOR)
+        x = cv2.imread(path, color_mode)
         x = cv2.resize(x, (input_shape[1], input_shape[0]))
         x = np.moveaxis(x, -1, 0)
-        x = np.asarray(x).astype('float32').reshape(1, 3, input_shape[0], input_shape[1]) / 255.
+        x = np.asarray(x).astype('float32').reshape(1, input_channel, input_shape[0], input_shape[1]) / 255.
 
         print(path)
         caffe_net_time_sum += inference_caffe_net(x)
@@ -116,10 +117,10 @@ def dnn_test():
     paths = glob('sample_images/*.jpg')
     for path in paths:
         print(path)
-        x = cv2.imread(path, cv2.IMREAD_COLOR)
+        x = cv2.imread(path, color_mode)
         x = cv2.resize(x, (input_shape[1], input_shape[0]))
         x = np.moveaxis(x, -1, 0)
-        x = np.asarray(x).astype('float32').reshape(1, 3, input_shape[0], input_shape[1]) / 255.
+        x = np.asarray(x).astype('float32').reshape(1, input_channel, input_shape[0], input_shape[1]) / 255.
         net.setInput(x)
         res = net.forward()
         channels = res.shape[1]
