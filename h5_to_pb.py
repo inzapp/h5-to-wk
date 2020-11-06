@@ -6,7 +6,7 @@ from tensorflow.python.framework.convert_to_constants import convert_variables_t
 
 
 def convert_h5_to_frozen_pb():
-    model = tf.keras.models.load_model('model.h5', compile=True)
+    model = tf.keras.models.load_model('model.h5', compile=False)
 #    tf.keras.backend.set_learning_phase(0)
     full_model = tf.function(lambda x: model(x))
     full_model = full_model.get_concrete_function(tf.TensorSpec(model.inputs[0].shape, model.inputs[0].dtype))
@@ -28,12 +28,12 @@ def convert_h5_to_frozen_pb():
 
     tf.io.write_graph(
         graph_or_graph_def=frozen_func.graph,
-        logdir="log",
+        logdir=".",
         name="model.pb",
         as_text=False
     )
 
-    net = cv2.dnn.readNet(r'model.pb')
+    net = cv2.dnn.readNet('model.pb')
 #    for layer_name in net.getLayerNames():
 #        print(layer_name)
 
