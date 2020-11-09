@@ -34,8 +34,8 @@ def convert_h5_to_frozen_pb():
     )
 
     net = cv2.dnn.readNet('model.pb')
-#    for layer_name in net.getLayerNames():
-#        print(layer_name)
+    for layer_name in net.getLayerNames():
+        print(layer_name)
 
 
 def convert_pb_to_caffemodel():
