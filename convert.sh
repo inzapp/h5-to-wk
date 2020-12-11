@@ -1,5 +1,3 @@
-python3 h5_to_pb.py
-mmconvert -sf tf -iw model.pb -df caffe -om model --inputShape=368,640,1 --inNodeName=x --dstNodeName=Identity 
-rm -r __pycache__
-rm *.json
-rm *.npy
+export PATH=/home/kali/.local/bin:$PATH
+#mmconvert -sf tf -iw model.h5 -df caffe -om model --inputShape=368,640,1 --inNodeName=x --dstNodeName=Identity 
+mmconvert -sf tf -iw model.h5 -df caffe -om model --inNodeName=x --dstNodeName=Identity
