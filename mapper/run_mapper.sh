@@ -1,4 +1,4 @@
-export LD_LIBRARY_PATH="./:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="./lib:${LD_LIBRARY_PATH}"
 ./nnie_mapper_12 ./config.cfg
 rm ../*.pb
 rm ../*.npy
