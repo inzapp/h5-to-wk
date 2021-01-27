@@ -1,5 +1,7 @@
-*.data
 *.dot
 *.log
-*.txt
-
+*.data
+RUNTIME.txt
+dout_nne_para.txt
+ibd_para.txt
+instruction.txt
