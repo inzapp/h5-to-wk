@@ -3,7 +3,7 @@ export LD_LIBRARY_PATH="./lib:${LD_LIBRARY_PATH}"
 rm ../*.pb
 rm ../*.npy
 rm ../*.json
-cp -avf ../model.wk ~/nfs/target_hi3519a/home/tmp.wk
-cp -avf ../model.wk ~/svn/ccl/model/tmp.wk
-ls -lrt ~/nfs/target_hi3519a/home/
+#cp -avf ../model.wk ~/nfs/target_hi3519a/home/ocr_w2l.wk
+#cp -avf ../model.wk ~/svn/ccl/model/ocr_w2l.wk
+#ls -lrt ~/nfs/target_hi3519a/home/ocr_w2l.wk
 date
